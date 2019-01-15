@@ -2,7 +2,7 @@ FROM tiberiuc/backup_agent as backup
 MAINTAINER Tiberiu Craciun <tibi@happysoft.ro>
 
 
-FROM alpine
+FROM alpine:edge
 RUN apk update \
   && apk --no-cache add tar bash supervisor bzip2 inotify-tools mongodb mongodb-tools \
   && rm -rf /var/cache/apk/* /tmp/*
