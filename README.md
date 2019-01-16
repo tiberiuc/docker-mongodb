@@ -3,7 +3,7 @@
 
 A Docker container for running mongodb with support for backups, based on [Alpine Linux](https://alpinelinux.org/).
 
-Full support for [backup_agent](https://github.com/tiberiuc/docker_backup_agent)
+Full support for [backup-agent](https://github.com/tiberiuc/docker-backup-agent)
 
 ## Quick start
 
